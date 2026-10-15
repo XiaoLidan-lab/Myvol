@@ -1,0 +1,17 @@
+# Local IDE state and generated output
+.idea/
+*.iml
+.gradle/
+**/build/
+local.properties
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+# Generated packages and private signing material
+*.apk
+*.aab
+app/release/
+*.jks
+*.keystore
+keystore.properties

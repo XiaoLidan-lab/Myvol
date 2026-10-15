@@ -1,0 +1,5 @@
+# Copy to local.properties and set your own Android SDK path.
+# macOS example:
+sdk.dir=/Users/YOUR_USER/Library/Android/sdk
+# Android Baidu Maps key for com.example.myvol and your signing SHA-1.
+BAIDU_MAP_AK=

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_activity">
+
+    <fragment
+        android:id="@+id/navigation_activity"
+        android:name="com.example.myvol.ui.activity.ActivityFragment"
+        android:label="活动"
+        tools:layout="@layout/fragment_activity" />
+
+    <fragment
+        android:id="@+id/navigation_team"
+        android:name="com.example.myvol.ui.team.TeamFragment"
+        android:label="团队"
+        tools:layout="@layout/fragment_team" />
+
+    <fragment
+        android:id="@+id/navigation_my"
+        android:name="com.example.myvol.ui.my.MyFragment"
+        android:label="我的"
+        tools:layout="@layout/fragment_my" />
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.example.myvol.ui.map.MapFragment"
+        android:label="我的"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/navigation_news"
+        android:name="com.example.myvol.ui.news.NewsFragment"
+        android:label="我的"
+        tools:layout="@layout/fragment_news" />
+</navigation>
